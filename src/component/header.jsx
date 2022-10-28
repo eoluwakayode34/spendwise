@@ -25,13 +25,14 @@ const Header = (props) => {
 
   return (
     <Flex
-      bg="white"
       w="full"
-      
-      fontFamily={'Montserrat'}
-      fontWeight={'400'}
+      bg={'175, 255, 255, 0.5'}
+      borderBottom={'1px solid rgba(255,169,0, 0.15)'}
+      css={{ backdropFilter: "blur(60px); saturate('500%')" }}
       {...props}
       zIndex={5}
+      pos="sticky"
+      top={0}
     >
       <Container  >
         <Flex
@@ -39,9 +40,11 @@ const Header = (props) => {
           justify="space-between"
           wrap="wrap"
           color="gray.900"
-          py={6}
+          py={5}
           px={{base: 4}}
           w="full"
+     
+
           {...props}
         >
 

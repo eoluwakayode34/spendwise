@@ -6,7 +6,11 @@ const Heading2 = ({children, fontSize='18px',  ...otherProps}) => {
 
 
     return (
-        <Heading fontSize={ ['20px','22px','24px','28px','28px']} fontWeight='bold' fontFamily={'spline sans'} color='black' textTransform='capitalize' {...otherProps}>{children}</Heading>
+        <Heading fontSize={ ['20px','22px','24px','28px','28px']}
+         fontWeight={700} fontFamily={'Dm sans'}
+          color='black'
+          lineHeight={'100%'}
+           textTransform='capitalize' {...otherProps}>{children}</Heading>
 
 
     )

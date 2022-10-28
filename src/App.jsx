@@ -39,11 +39,11 @@ function App() {
     <Flex flex={'1'} w='full' pos={"relative"}>
       <Container>
         <Flex w='100%' py={[1,3,5,12]} flexWrap='wrap' px={4}  >
-          <Flex width={['100%']} flexDir={'column'} py={[1,3,5,12]}>
-            <Flex justify={"center"} flexDir="column" justifyContent={"center"} align="center">
+          <Flex width={['100%']} flexDir={'column'} py={[1,3,5]}>
+            <Flex justify={"center"} flexDir="column"  justifyContent={"center"} align="center">
 
-            <Heading1 textAlign="center" color={'#1b2caf'} fontSize={['36px','46px','50px','54px','64px']}>Expense management and payment solution for businesses.</Heading1>
-            <PrimaryHeading lineHeight="27px" textAlign="center"  px={10} fontWeight={"bold"} >
+            <Heading1 textAlign="center" px={['5%']} color={'#1b2caf'} fontSize={['36px','46px','50px','54px','64px']}>Expense management and payment solution for businesses.</Heading1>
+            <PrimaryHeading lineHeight="27px" px={['20%']} textAlign="center"  fontWeight={"bold"} >
 
 Automatically categorize and control your business spend across multiple accounts.                
  </PrimaryHeading>
@@ -64,14 +64,17 @@ Automatically categorize and control your business spend across multiple account
               </Flex> */}
 
               <Flex bg="gray" my={[2,6]} align={"center"} borderLeft="6px solid #1b2caf" padding={1} borderRadius={0}>
-              <PrimaryText lineHeight="27px" color={"white"} fontWeight={"bold"} p={[1,4]} >
+              <PrimaryText  lineHeight="27px" color={"white"}  p={[1,4]} >
 
               <Typewriter
   options={{
-    strings: ['Get virtual & physical corporate car', 'Get Virtual USD and Naira    '],
+    strings: ['Get virtual & physical corporate car', 'Get Virtual USD and Naira'],
     autoStart: true,
     loop: true,
+  
   }}
+
+
 /> </PrimaryText>
               </Flex>
               <Flex bg="#1b2caf" align={"center"} padding={1} borderRadius={30}>
@@ -81,14 +84,14 @@ Automatically categorize and control your business spend across multiple account
                   fontSize: ["12px","12px","16px"]
                 }}
                 background="transparent"
-                placeholder="what's your work email" color={"white"}
+                placeholder="What's your work email" color={"white"}
                 _focus={{
                   border: "none",
                   outline: "none",
                   shadow: "none",
                 }}
                 border={"none"} outline={"none"} shadow={"none"}/>
-                <Button as={Flex} width={['40%','30%']} fontWeight={"bold"} bg='#FEA900'  color="#1b2caf" fontSize={["10px","10px","10px","16px"]} borderRadius={30}>
+                <Button as={Flex} width={['40%','30%']}  bg='#FEA900'  color="#1b2caf" fontSize={["10px","10px","10px","16px"]} borderRadius={30}>
                   Get Started
                 </Button>
               </Flex>
@@ -222,7 +225,7 @@ Automatically categorize and control your business spend across multiple account
             <Flex flex='1'flexDir={'column'} py={12}>
               <Heading1 color={'#1b2caf'} pb={0} >
               Get The Spendwise
-<Box color={'#FEA900'}>Business Debit Cards. </Box>           </Heading1>
+<Heading1 color={'#FEA900'}>Business Debit Cards. </Heading1>           </Heading1>
               <PrimaryText lineHeight="27px"   fontWeight="bold" >
 
             The right corporate debit card for your business.
@@ -274,14 +277,14 @@ Automatically categorize and control your business spend across multiple account
     </Flex>
     <Flex w='full' bg='#1b2caf' >
       <Container>
-        <Flex px={3} py={40} flexDir={'column'}  >
-          <Flex flexDir={'column'} align={'center'} w={['100%']}>
-            <Heading1 color={'#FEA900'} align="center" >YOU ARE IN
+        <Flex px={3} py={36} flexDir={'column'}  >
+          <Flex flexDir={'column'} bg='#00156D' borderRadius={20}  py={12} align={'center'} w={['100%']} >
+            <Heading1 color={'#FEA900'} align="center"  fontSize={['36px','46px','50px','54px','64px']}>YOU ARE IN
 GOOD COMPANY.</Heading1>
-            <PrimaryText color={'white'} align='center' px={[10,200]}>
+            <PrimaryHeading color={'white'} align='center' px={[10,200]}>
 
             Spendwise ensures all monetary operations are executed & monitored seamlessly, via the use of our unique & simple expense management tools that suits you & your business.
-</PrimaryText>
+</PrimaryHeading>
           </Flex>
 
         
@@ -534,7 +537,7 @@ GOOD COMPANY.</Heading1>
 
 
 </Flex>
-    <Flex w='full' bg='#00156D' py={10} >
+    <Flex w='full' bg='#00156D' py={10} clipPath={'polygon(15% 0, 91% 0, 100% 25%, 100% 100%, 0 99%, 0 9%)'}>
       <Container>
         <Flex px={4} py={10} flexDir={'column'} >
           
