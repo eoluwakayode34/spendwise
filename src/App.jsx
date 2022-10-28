@@ -226,7 +226,7 @@ Automatically categorize and control your business spend across multiple account
               <Heading1 color={'#1b2caf'} pb={0} >
               Get The Spendwise
 <Heading1 color={'#FEA900'}>Business Debit Cards. </Heading1>           </Heading1>
-              <PrimaryText lineHeight="27px"   fontWeight="bold" >
+              <PrimaryText lineHeight="27px"   fontSize={['15px','16px','17px','18px']} >
 
             The right corporate debit card for your business.
             
@@ -236,7 +236,7 @@ Automatically categorize and control your business spend across multiple account
               <Flex flexDir={"column"} py={'2rem'}>
                 <Flex flexDir={"column"}>
                   <Heading2 color="#1b2caf">1. All Expenses Under Control.</Heading2>
-                  <PrimaryText>For one-time expenses or monthly subscriptions. Set individual limits and keep an eye on all costs. Automate expense monitoring.
+                  <PrimaryText fontSize={['15px','16px','17px','18px']}>For one-time expenses or monthly subscriptions. Set individual limits and keep an eye on all costs. Automate expense monitoring.
 
 </PrimaryText>
 
@@ -245,7 +245,7 @@ Automatically categorize and control your business spend across multiple account
                 <Flex flexDir={"column"} py={'2rem'}>
                   <Heading2 color="#1b2caf">2. Unlimited Corporate Expense Cards.
 </Heading2>
-                  <PrimaryText>
+                  <PrimaryText fontSize={['15px','16px','17px','18px']}>
                   Create unlimited number of virtual and physical cards, for all spending, and across any categories of choice within seconds.
 </PrimaryText>
 
@@ -253,7 +253,7 @@ Automatically categorize and control your business spend across multiple account
                 <Flex flexDir={"column"}>
                   <Heading2 color="#1b2caf">3. Corporate Cards For Employees.
 </Heading2>
-                  <PrimaryText>
+                  <PrimaryText  fontSize={['15px','16px','17px','18px']}>
                   Create unlimited cards for individual employees of choice. Control where employees cards can be used.
 
 </PrimaryText>
@@ -310,11 +310,9 @@ GOOD COMPANY.</Heading1>
             <Flex flex='1'flexDir={'column'} py={12}>
               <Heading1 color={'#1b2caf'} >
               Start Smart Spending With Spendwise, Today.                </Heading1>
-              <PrimaryText lineHeight="27px" >
+              <PrimaryText lineHeight="27px" fontSize={['15px','16px','17px','18px']} >
 
-            <b style={{fontWeight: 'bold'}} >
             Connect your existing business bank accounts to SpendWise and create unlimited physical and virtual corporate cards for all types of expenses, merchants and teams. Track expenses in real time.
-              </b>  
 
                    </PrimaryText>
               {/* <Flex my={['1rem']}>
@@ -339,12 +337,11 @@ GOOD COMPANY.</Heading1>
               <Heading1 color={'#1b2caf'} >
               Spendwise Security
                 </Heading1>
-              <PrimaryText lineHeight="27px" >
+              <PrimaryText lineHeight="27px" fontSize={['15px','16px','17px','18px']} >
 
-            <b style={{fontWeight: 'bold'}} >
+            
             We are deliberate with security and diligently protect your financial information with industry-leading standards and technology. Our security features includes:
 
-              </b>  
 
 <br/><br/>
 
@@ -537,7 +534,7 @@ GOOD COMPANY.</Heading1>
 
 
 </Flex>
-    <Flex w='full' bg='#00156D' py={10} clipPath={'polygon(15% 0, 91% 0, 100% 25%, 100% 100%, 0 99%, 0 9%)'}>
+    <Flex w='full' bg='#00156D' py={10} clipPath={'polygon(15% 0, 91% 0, 100% 25%, 100% 100%, 0 100%, 0 9%);'}>
       <Container>
         <Flex px={4} py={10} flexDir={'column'} >
           

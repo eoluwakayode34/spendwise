@@ -11,7 +11,7 @@ const FeatureCard = ({children, bgColor = 'white', image, fontSize, title, subti
   <Image src={image} alt='feature-' width={'50%'} m={0} />
 </Flex>
             <Heading2 mb={2} >{title}</Heading2>
-            <PrimaryText align='center'>
+            <PrimaryText fontSize={['15px','16px','17px','18px']} align='center'>
             {subtitle}    
             </PrimaryText>
      </Flex>
