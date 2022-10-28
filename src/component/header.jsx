@@ -74,7 +74,7 @@ const Header = (props) => {
    
             <Text p={2} color={"#FEA900"}>FAQs</Text>
             <Text color={"#1b2caf"} p={2}>Log in</Text>
-            <Button bg="#1b2caf"  color="white" p={2}>Sign Up</Button>
+            <Button bg="#1b2caf"  color="white" py={'20px'} px={'15px'} fontSize={['15px']} fontWeight={500}>Sign Up</Button>
           </Stack>
  
         </Flex>

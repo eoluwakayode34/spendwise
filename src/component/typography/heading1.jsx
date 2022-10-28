@@ -10,7 +10,7 @@ const Heading1 = ({children, fontSize,  ...otherProps}) => {
          fontWeight='600' color='#464646;'
          lineHeight={1.2}
          py={4}
-         fontFamily={'Spline Sans'}
+         fontFamily={'Inter'}
           {...otherProps}>{children}</Heading>
 
 

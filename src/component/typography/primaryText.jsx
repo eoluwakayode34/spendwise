@@ -11,7 +11,7 @@ const PrimaryText = ({children, align='left',  fontSize = ['14px','15px','16px']
         fontWeight={'500'}
         letterSpacing={.2}
         color={color ? color : textColor}
-        fontFamily={'Montserrat'}
+        fontFamily={'DM Sans'}
         py={3}
         fontSize={fontSize} {...otherProps} >
 
