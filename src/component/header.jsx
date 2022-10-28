@@ -72,9 +72,9 @@ const Header = (props) => {
             fontSize={['14px']}
           >
    
-            <Text p={2} color={"#FEA900"}>FAQs</Text>
-            <Text color={"#1b2caf"} p={2}>Log in</Text>
-            <Button bg="#1b2caf"  color="white" py={'20px'} px={'15px'} fontSize={['15px']} fontWeight={500}>Sign Up</Button>
+            <Text fontSize={['15px']} fontFamily={'Dm Sans'}  color={"#FEA900"}>FAQs</Text>
+            <Text color={"#1b2caf"} py={'23px'} px={'16px'} fontSize={['15px']} fontFamily={'Dm Sans'}>Log in</Text>
+            <Button bg="#1b2caf"  color="white" py={'23px'} px={'16px'} fontSize={['15px']} fontFamily={'Dm Sans'} fontWeight={500}>Sign Up</Button>
           </Stack>
  
         </Flex>

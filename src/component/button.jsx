@@ -9,11 +9,11 @@ const AppButton = ({children, width='100%', ...otherProps}) => {
             py='25px'
             fontWeight={400}
             textTransform='capitalize'
-            fontSize='16px'
+            fontSize='8px'
             bg={'#052A24'}
-            fontFamily='montserrat'
+            fontFamily='Dm Sans'
             color={'white'}
-            borderRadius={8}
+            borderRadius={6}
             {...otherProps} >
                 {children}
             </Button>

@@ -10,7 +10,7 @@ import { FaMinus, FaPlus,  FaUserTie} from 'react-icons/fa'
 import Button from './component/button'
 import Header from './component/header'
 import Container from './component/container'
-import {Heading1, Heading2, PrimaryText} from './component/typography'
+import {Heading1, Heading2, PrimaryText, PrimaryHeading} from './component/typography'
 import FeatureCard from './component/card'
 import {HiOutlineArrowRight} from 'react-icons/hi'
 import './App.css'
@@ -42,11 +42,11 @@ function App() {
           <Flex width={['100%']} flexDir={'column'} py={[1,3,5,12]}>
             <Flex justify={"center"} flexDir="column" justifyContent={"center"} align="center">
 
-            <Heading1 textAlign="center" color={'#1b2caf'} fontSize={['36px','46px','50px','54px','60px']}>Expense management and payment solution for businesses.</Heading1>
-            <PrimaryText lineHeight="27px" textAlign="center" fontSize={["16px","19px","20px"]} px={10} fontWeight={"bold"} >
+            <Heading1 textAlign="center" color={'#1b2caf'} fontSize={['36px','46px','50px','54px','64px']}>Expense management and payment solution for businesses.</Heading1>
+            <PrimaryHeading lineHeight="27px" textAlign="center"  px={10} fontWeight={"bold"} >
 
 Automatically categorize and control your business spend across multiple accounts.                
- </PrimaryText>
+ </PrimaryHeading>
             </Flex>
             
             <Flex w='full'  py={[1,3,5,10]} >
