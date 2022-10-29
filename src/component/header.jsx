@@ -43,13 +43,14 @@ const Header = (props) => {
           py={5}
           px={{base: 4}}
           w="full"
+          align={'center'}
      
 
           {...props}
         >
 
           <Flex align="center" >
-          <Image src={logo} alt='safeeza logo'/>
+          <Image src={logo} height={['35px','37px','40px','45px']} alt='safeeza logo'/>
           </Flex>
 
 
@@ -75,7 +76,7 @@ const Header = (props) => {
             fontSize={['14px']}
           >
    
-            <Text fontSize={['15px']} fontFamily={'Dm Sans'}  color={"#FEA900"}>FAQs</Text>
+            <Text fontSize={['15px']} fontFamily={'Dm Sans'} py={'10px'} px={'16px'} color={"#FEA900"}>FAQs</Text>
             <Text color={"#1b2caf"} py={'23px'} px={'16px'} fontSize={['15px']} fontFamily={'Dm Sans'}>Log in</Text>
             <Button bg="#1b2caf"  color="white" py={'23px'} px={'16px'} fontSize={['15px']} fontFamily={'Dm Sans'} fontWeight={500}>Sign Up</Button>
           </Stack>

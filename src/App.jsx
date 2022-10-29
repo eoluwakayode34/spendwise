@@ -534,7 +534,7 @@ GOOD COMPANY.</Heading1>
 
 
 </Flex>
-    <Flex w='full' bg='#00156D' py={10} clipPath={'polygon(15% 0, 91% 0, 100% 25%, 100% 100%, 0 100%, 0 9%);'}>
+    <Flex w='full' bg='#00156D' py={10} clipPath={[' polygon(3% 0, 91% 0, 100% 0, 100% 100%, 0 100%, 0 5%) ','polygon(15% 0, 91% 0, 100% 25%, 100% 100%, 0 100%, 0 9%);']}>
       <Container>
         <Flex px={4} py={10} flexDir={'column'} >
           
